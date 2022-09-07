@@ -1,0 +1,21 @@
+#image{
+  max-width:100%;
+  margin:auto;
+  display:block;
+}
+#title{
+  margin:0;
+}
+#img-caption{
+  text-align:center;
+}
+#tribute-info #info{
+  background-color:#ccffff;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top:4%;
+  margin-bottom:5%;
+}
+body{
+  background-color:#ccffcc;
+}
