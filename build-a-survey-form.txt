@@ -1,0 +1,53 @@
+** start of undefined **
+
+<html>
+  <head></head>
+  <body>
+    <h1 id="title" align="center">title</h1>
+    <p id="description">description</p>
+    <form id="survey-form">
+      <div>
+        <label id="name-label">name</label><br>
+        <input id="name" type="text" required placeholder="your name (nick)"><br>
+      </div>
+      <div>
+        <label id="email-label">email</label><br>
+        <input id="email" type="email" required placeholder="your email (exmple@mail.ru)"><br>
+      </div>
+      <div>
+        <label id="number-label">number</label><br>
+        <input id="number" type="number" min="1" max="10" placeholder="2"><br>
+      </div>
+      <div>
+        <lable>question</lable><br>
+        <input type="radio" value="answer" name="2">answer<br>
+        <input type="radio" value="answer2" name="2">answer2<br>
+        <input type="radio" value="answer2" name="2">answer2
+      </div>
+      <div>
+        <select id="dropdown">
+          <option></option>
+          <option></option>
+        </select>
+      </div>
+      <div>
+        <input type="checkbox" value="checked">
+        <input type="checkbox" value="unchecked">
+      </div>
+      <input type="submit" id="submit">
+      <br>
+      <textarea></textarea>
+
+
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
