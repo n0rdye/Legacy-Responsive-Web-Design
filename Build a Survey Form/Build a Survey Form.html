@@ -5,40 +5,47 @@
   <body>
     <div id="infodiv">
       <h1 id="title" align="center">title</h1>
-    <p id="description" align="center">description</p>
+    <p id="description" align="center"><i>description</i></p>
     </div>
     <form id="survey-form" align="center">
       <div id="name-div">
         <label id="name-label" >name</label><br>
-        <input id="name" type="text" required placeholder="your name (nick)"><br>
+        <input id="name" type="text" required placeholder=" your name (nick)"><br>
       </div>
-      <div>
+      <div id="email-div">
         <label id="email-label">email</label><br>
-        <input id="email" type="email" required placeholder="your email (exmple@mail.ru)"><br>
+        <input id="email" type="email" required placeholder=" your email (exmple@mail.ru)"><br>
       </div>
-      <div>
-        <label id="number-label">number</label><br>
-        <input id="number" type="number" min="1" max="10" placeholder="2"><br>
+      <div id="num-div">
+        <label id="number-label">age</label><br>
+        <input id="number" type="number" min="18" max="99" placeholder=" 18"><br>
       </div>
-      <div>
-        <lable>question</lable><br>
-        <input type="radio" value="answer" name="2">answer<br>
-        <input type="radio" value="answer2" name="2">answer2<br>
-        <input type="radio" value="answer2" name="2">answer2
+      <div id="ques-div">
+        <lable id="ques-label">question</lable>
+        <br>
+        <input id="ans" type="radio" value="answer" name="answer">answer
+        <br>
+        <input id="ans" type="radio" value="answer2" name="answer">answer2
+        <br>
+        <input id="ans" type="radio" value="answer2" name="answer">answer2
       </div>
-      <div>
+      <div id="drop-div">
+        <label id="drop-label">dropdown</label><br>
         <select id="dropdown">
           <option></option>
           <option></option>
         </select>
       </div>
-      <div>
-        <input type="checkbox" value="checked">
-        <input type="checkbox" value="unchecked">
+      <div id="check-div">
+        <label id="check-label">checkbox</label><br>
+        <label><input id="checkbox" type="checkbox" value="male"> male</label><br>
+        <label><input type="checkbox" value="female"> female</label>
       </div>
-      <input type="submit" id="submit">
-      <br>
-      <textarea></textarea>
+      <div id="comm-div">
+        <label id="comm-label">comments text input</label><br>
+        <textarea id="comm-text"></textarea><br>
+      </div>
+      <input type="submit" id="submit" value="Submit">
     </form>
   </body>
 </html>
