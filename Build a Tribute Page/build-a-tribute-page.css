@@ -5,17 +5,36 @@
 }
 #title{
   margin:0;
+  margin-bottom:1%;
 }
 #img-caption{
   text-align:center;
 }
-#tribute-info #info{
+#main{
   background-color:#ccffff;
+  padding:1%;
+  border-radius:10px;
+}
+#tribute-info #info{
+  background-color:rgb(200,250,255);
   margin-left:10%;
   margin-right:10%;
   margin-top:4%;
   margin-bottom:5%;
+  padding:2%;
+  border-radius:60px;
 }
 body{
-  background-color:#ccffcc;
+  background-color:rgb(255,255,255);
 }
+#img-div{
+  background-color:rgb(200,246,255);
+  margin-left:0%;
+  margin-right:0%;
+  margin-top:0%;
+  margin-bottom:0%;
+  padding-top:3%;
+  padding-bottom:1%;
+  border-radius:8px;
+}
+
