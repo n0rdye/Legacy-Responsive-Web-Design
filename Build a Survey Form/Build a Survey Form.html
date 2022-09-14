@@ -1,6 +1,7 @@
 <html>
   <head>
     <link href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
   <body>
     <div id="infodiv">
@@ -38,12 +39,19 @@
       </div>
       <div id="check-div">
         <label id="check-label">checkbox</label><br>
-        <label><input id="checkbox" type="checkbox" value="male"> male</label><br>
-        <label><input type="checkbox" value="female"> female</label>
+        <label><input id="checkbox" type="checkbox" class="checkbox" value="male" onclick="checkedOnClick(this);"> male</label><br>
+        <label><input id="checkbox2" type="checkbox" class="checkbox"  value="female" onclick="checkedOnClick(this);"> female</label>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $('.checkbox').click(function() {
+              $('.checkbox').not(this).prop('checked', false);
+            });
+        });
+        </script>
       </div>
       <div id="comm-div">
         <label id="comm-label">comments text input</label><br>
-        <textarea id="comm-text"></textarea><br>
+        <textarea id="comm-text" placeholder="your comment text"></textarea><br>
       </div>
       <input type="submit" id="submit" value="Submit">
     </form>
