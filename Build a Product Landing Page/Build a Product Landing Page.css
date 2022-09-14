@@ -1,0 +1,98 @@
+* {
+  font-size:20;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#header-img{
+  width:30%;
+  margin-right:30%;
+  display:flex;
+}
+#header{
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0,0,0,.6);
+}
+#nav-bar ul{
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#main{
+  margin-top:100px;
+}
+#info-img{
+  width:120px;
+  height:70px;
+}
+#info div{
+  display: flex;
+}
+#footer{
+  display: flex;
+  justify-content: flex-end;
+}
+#footer-ul{
+  display: flex;
+  width: 240px;
+  justify-content: space-around;
+}
+a{
+  color:black;
+  text-decoration: none;
+}
+#form h1{
+  margin-bottom:20px;
+}
+#submit{
+  font-size:28px;
+  font-style: italic;
+  margin-top:10px;
+  padding:4px;
+  padding-left:30px;
+  padding-right:30px;
+  border:1px solid rgb(240,240,0);
+  border-radius:5px;
+  background-color:rgb(255,255,0);
+}
+#email{
+  width:200px;
+  padding-left:10px;
+}
+td{
+  padding-bottom:30px;
+}
+#info-img{
+  margin-right:5px;
+  margin-left:100px;
+  padding-left:30px;
+}
+td p{
+  margin-right:1px;
+}
+table{
+  margin-top:100px;
+  margin-bottom:50px;
+}
+#par{
+  padding-right:30px;
+  margin-left:140px;
+  margin-bottom:50px;
+}
+#video{
+  margin-bottom:50px;
+}
+#footer{
+  padding-top:20px;
+  padding-bottom:10px;
+  background-color:gray;
+}
+body{
+  background-image:url("https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3798.jpg?w=1380&t=st=1663157545~exp=1663158145~hmac=4acd22250733754c73c9eee9f99dd1ce4238e08a5e0e1fbe3f0c3013ed8be67d");
+}
