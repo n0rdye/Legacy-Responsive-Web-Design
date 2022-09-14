@@ -42,23 +42,44 @@ body{
   padding-bottom:4%;
 }
 #survey-form *{
-  font-size:30;
+  font-size:28;
 }
 #name,#email,#dropdown{
   margin-top:1%;
   width:110%;
+  font-size:26;
+  height:6%;
+  padding-left:1%;
+}
+#name,#email,#dropdown,#comm-text,#number{
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+#name:focus,#email:focus,#dropdown:focus,#comm-text:focus,#number:focus {
+  border: 3px solid rgba(0,127,255,0.5);
 }
 #comm-text{
+  font-size:26;
+  padding-left:2%;
   margin-top:1%;
   width:110%;
   height:30%;
 }
 #number{
+  font-size:26;
+  height:6%;
+  padding-left:1%;
   margin-top:1%;
-  width:9%;
+  width:70px;
 }
 #ans:first-of-type{
   margin-top:2%;
+}
+#checkbox,#checkbox2,#ans{
+  margin-left:20px;
 }
 #dropdown,#checkbox{
   margin-top:1%;
