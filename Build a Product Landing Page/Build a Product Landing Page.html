@@ -1,6 +1,11 @@
 <html>
 <head>
   <link rel="stylesheet" href="styles.css">
+  <script>
+    function buy(){
+      alert('No money')
+    }
+  </script>
 </head>
 <body>
   <header id="header">
@@ -16,7 +21,7 @@
   <div id="main">
     <form id="form" action="https://www.freecodecamp.com/email-submit" align="center">
       <h1>Start from crating your new <b><i>ONLY</i></b> account</h1>
-      <input type="email" name="email" id="email" placeholder="your email"><br>
+      <input type="email" name="email" required id="email" placeholder="your email"><br>
       <input type="submit" id="submit" value="start">
     </form>
     <div id="info">
@@ -46,7 +51,7 @@
               <dt>asdasd</dt>
               <dt>asdasd</dt>
             </dl>
-            <input type="submit" class="tab-in" value="select">
+            <input type="submit" onclick="buy()" class="tab-in" value="select">
           </div>
         </td>
         <td class="space"></td>
@@ -59,7 +64,7 @@
               <dt>asdasd</dt>
               <dt>asdasd</dt>
             </dl>
-            <input type="submit" class="tab-in" value="select">
+            <input type="submit" onclick="buy()" class="tab-in" value="select">
           </div> 
         </td>
         <td class="space"></td>
@@ -72,7 +77,7 @@
               <dt>asdasd</dt>
               <dt>asdasd</dt>
             </dl>
-            <input type="submit" class="tab-in" value="select">
+            <input type="submit" onclick="buy()" class="tab-in" value="select">
           </div>
         </td>
       </tr>
