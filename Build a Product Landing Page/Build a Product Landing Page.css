@@ -25,7 +25,7 @@
   justify-content: space-around;
 }
 #main{
-  margin-top:100px;
+  margin-top:20%;
 }
 #info-img{
   width:120px;
@@ -60,8 +60,8 @@ a{
   border:1px solid rgb(200,200,0);
   border-radius:3px;
   background-color:rgb(240,240,0);
-  -webkit-transition: 0.1s;
-  transition: 0.1s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 td{
   padding-bottom:30px;
@@ -72,16 +72,23 @@ td{
   padding-left:30px;
 }
 td p{
-  margin-right:1px;
+  padding:5px;
+  margin-right:20px;
+  margin-left:0px;
+  background-color:rgba(0,0,0,.1);
+  border-radius:10px;
 }
 table{
   margin-top:100px;
   margin-bottom:50px;
 }
 #how-it-works{
-  padding-right:30px;
+  padding:10px;
+  margin-right:70px;
   margin-left:140px;
   margin-bottom:50px;
+  background-color:rgba(0,0,0,.1);
+  border-radius:10px;
 }
 #video{
   height:300;
@@ -109,7 +116,7 @@ a:hover{
   font-size:32px;
   font-style: italic;
   border:1px solid rgb(200,200,0);
-  border-radius:3px;
+  border-radius:10px;
   background-color:rgb(240,240,0);
 }
 #email{
@@ -155,4 +162,24 @@ a:hover{
 }
 .space{
   padding-left:50px;
+}
+.tab-in{
+  font-size:22px;
+  font-style: italic;
+  margin-top:10px;
+  padding:2px;
+  padding-left:10px;
+  padding-right:10px;
+  border:1px solid rgb(200,200,0);
+  border-radius:10px;
+  background-color:rgb(240,240,0);
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+.tab-in:hover{
+  font-size:26px;
+  font-style: italic;
+  border:1px solid rgb(200,200,0);
+  border-radius:3px;
+  background-color:rgb(240,240,0);
 }
