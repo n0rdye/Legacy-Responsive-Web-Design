@@ -24,9 +24,6 @@
   flex-direction: row;
   justify-content: space-around;
 }
-#main{
-  margin-top:20%;
-}
 #info-img{
   width:120px;
   height:70px;
@@ -130,8 +127,13 @@ a:hover{
 #email:focus{
   border: 3px solid rgba(0,127,255,0.7);
 }
-@media (max-width: 12450px) {
-  /* … */
+#main{
+  margin-top:5%;
+}
+@media (min-width: 320px) {
+  #main{
+    padding-top:70px;
+  }
 }
 #pricing{
   margin-bottom:200px;
