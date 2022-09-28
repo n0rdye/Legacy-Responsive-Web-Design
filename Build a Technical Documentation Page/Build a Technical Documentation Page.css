@@ -1,0 +1,42 @@
+#main-doc{
+  margin-left:220px;
+}
+body{
+  height:1000px;
+}
+#navbar{
+    position: fixed;
+    min-width: 100px;
+    top: 0px;
+    left: 0px;
+    height:2000px;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+#navbar dt{
+  padding-left:10px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:4px;
+  border:1px solid gray;
+  border-left:0px solid gray;
+  border-right:0px solid gray;
+}
+#navbar dl{
+  padding-top:0px;
+  margin-top:0px;
+}
+#head-doc{
+  font-size:32;
+  padding-bottom:10px;
+  padding-left:20px;
+}
+.title {
+  font-weight: 900;
+}
+section{
+  padding-bottom:30px;
+}
+@media (hover: hover) {
+  /* … */
+}
